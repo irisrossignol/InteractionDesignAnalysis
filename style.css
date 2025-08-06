@@ -1,0 +1,137 @@
+* {
+  background-color: #f8ebcf;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  color: #01757a;
+  font-family: "Oranienbaum", serif;
+  font-size: 400%;
+  text-align: center;
+  background-color: #f6c0a6;
+  margin-top: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 0rem 0rem 10rem 10rem;
+  border-left: 3px solid #01757a;
+  border-right: 3px solid #01757a;
+  border-bottom: 3px solid #01757a;
+}
+
+h2 {
+  text-align: center;
+  color: #0d4c4f;
+}
+
+h1 {
+  text-align: center;
+  color: #0d4c4f;
+}
+
+.button {
+  padding: 2rem 4rem;
+  background-color: #01757a;
+  color: #f6c0a6;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px;
+  font-size: 200%;
+  border: 3px solid #01757a;
+}
+
+.button:hover {
+  color: #01757a;
+  background-color: #f6c0a6;
+  border: 3px solid #01757a;
+}
+
+.buttonCont {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.title1 {
+  font-family: "Oranienbaum", serif;
+  background-color: #ffe8d8;
+}
+.title2 {
+  font-family: "Oranienbaum", serif;
+  background-color: #f8ccb5;
+}
+.title3 {
+  font-family: "Oranienbaum", serif;
+  background-color: #f6c0a6;
+}
+.title4 {
+  font-family: "Oranienbaum", serif;
+  background-color: #e9a688;
+}
+.title5 {
+  font-family: "Oranienbaum", serif;
+  background-color: #d98c6c;
+}
+
+.para1 {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #01757a;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #0d4c4f;
+  background-color: #ffe8d8;
+}
+
+.para2 {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #01757a;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #0d4c4f;
+  background-color: #f8ccb5;
+}
+
+.para3 {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #01757a;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #0d4c4f;
+  background-color: #f6c0a6;
+}
+
+.para4 {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #01757a;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #0d4c4f;
+  background-color: #e9a688;
+}
+
+.para5 {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #01757a;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #0d4c4f;
+  background-color: #d98c6c;
+}
