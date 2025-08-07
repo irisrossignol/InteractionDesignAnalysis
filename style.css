@@ -1,5 +1,6 @@
 * {
-  background-color: #f8ebcf;
+  background-color: #efefef;
+  font-family: "Figtree", sans-serif;
 }
 
 body {
@@ -8,45 +9,56 @@ body {
 }
 
 .intro {
-  color: #01757a;
-  font-family: "Oranienbaum", serif;
-  font-size: 400%;
+  color: #24252a;
+  font-family: "Figtree", sans-serif;
+  font-size: 300%;
   text-align: center;
-  background-color: #f6c0a6;
+  background-color: #ffffff;
   margin-top: 0;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  border-radius: 0rem 0rem 10rem 10rem;
-  border-left: 3px solid #01757a;
-  border-right: 3px solid #01757a;
-  border-bottom: 3px solid #01757a;
+  border-radius: 0rem 0rem 1rem 1rem;
+  border-bottom: 4px solid #afafaf;
 }
 
 h2 {
   text-align: center;
-  color: #0d4c4f;
+  color: #24252a;
 }
 
 h1 {
   text-align: center;
-  color: #0d4c4f;
+  color: #24252a;
 }
 
-.button {
+.button1 {
   padding: 2rem 4rem;
-  background-color: #01757a;
-  color: #f6c0a6;
+  background-color: #d6d1fc;
+  color: #24252a;
   border-radius: 5px;
   text-decoration: none;
   border: 2px;
   font-size: 200%;
-  border: 3px solid #01757a;
 }
 
-.button:hover {
-  color: #01757a;
-  background-color: #f6c0a6;
-  border: 3px solid #01757a;
+.button1:hover {
+  color: #24252a;
+  background-color: #bfb6ff;
+}
+
+.button2 {
+  padding: 2rem 4rem;
+  background-color: #feecba;
+  color: #24252a;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px;
+  font-size: 200%;
+}
+
+.button2:hover {
+  color: #24252a;
+  background-color: #ffe18d;
 }
 
 .buttonCont {
@@ -57,81 +69,101 @@ h1 {
 
 .title1 {
   font-family: "Oranienbaum", serif;
-  background-color: #ffe8d8;
+  background-color: #d6d1fc;
 }
 .title2 {
   font-family: "Oranienbaum", serif;
-  background-color: #f8ccb5;
+  background-color: #d6d1fc;
 }
 .title3 {
   font-family: "Oranienbaum", serif;
-  background-color: #f6c0a6;
+  background-color: #feecba;
 }
 .title4 {
   font-family: "Oranienbaum", serif;
-  background-color: #e9a688;
+  background-color: #d6d1fc;
 }
 .title5 {
   font-family: "Oranienbaum", serif;
-  background-color: #d98c6c;
+  background-color: #feecba;
 }
 
 .para1 {
   width: 80%;
   margin: 2rem auto;
   padding: 1.5rem;
-  border: 2px solid #01757a;
   border-radius: 1rem;
   text-align: center;
   font-size: 1.2rem;
-  color: #0d4c4f;
-  background-color: #ffe8d8;
+  color: #24252a;
+  background-color: #d6d1fc;
+  border: 2px solid #d6d1fc;
 }
 
 .para2 {
   width: 80%;
   margin: 2rem auto;
   padding: 1.5rem;
-  border: 2px solid #01757a;
   border-radius: 1rem;
   text-align: center;
   font-size: 1.2rem;
-  color: #0d4c4f;
-  background-color: #f8ccb5;
+  color: #24252a;
+  background-color: #d6d1fc;
+  border: 2px solid #d6d1fc;
 }
 
 .para3 {
   width: 80%;
   margin: 2rem auto;
   padding: 1.5rem;
-  border: 2px solid #01757a;
   border-radius: 1rem;
   text-align: center;
   font-size: 1.2rem;
-  color: #0d4c4f;
-  background-color: #f6c0a6;
+  color: #24252a;
+  background-color: #feecba;
+  border: 2px solid #feecba;
 }
 
 .para4 {
   width: 80%;
   margin: 2rem auto;
   padding: 1.5rem;
-  border: 2px solid #01757a;
   border-radius: 1rem;
   text-align: center;
   font-size: 1.2rem;
-  color: #0d4c4f;
-  background-color: #e9a688;
+  color: #24252a;
+  background-color: #d6d1fc;
+  border: 2px solid #d6d1fc;
 }
 
 .para5 {
   width: 80%;
   margin: 2rem auto;
   padding: 1.5rem;
-  border: 2px solid #01757a;
   border-radius: 1rem;
   text-align: center;
   font-size: 1.2rem;
-  color: #0d4c4f;
-  background-color: #d98c6c;
+  color: #24252a;
+  background-color: #feecba;
+  border: 2px solid #feecba;
+}
+
+.para1:hover {
+  border: 2px solid #bfb6ff;
+}
+
+.para2:hover {
+  border: 2px solid #bfb6ff;
+}
+
+.para3:hover {
+  border: 2px solid #ffe18d;
+}
+
+.para4:hover {
+  border: 2px solid #bfb6ff;
+}
+
+.para5:hover {
+  border: 2px solid #ffe18d;
 }
